@@ -166,4 +166,27 @@ Quick documentation:
     <input type="freetext" presence="always" category="Energy" description="The cold water output rating (maximum potential) of the generator" name="Output - cold water rating" key="generator:output:cold_water"/>
   </feature>
 
+
+  <!-- ************************************************************************
+       Food features
+       ************************************************************************ -->
+
+  <feature name="Allotments">
+    <category>food</category>
+    <icon image="/pois/food_allotment.png"/>
+    <area/>
+    <tag k="landuse" v="allotments"/>
+    <inputSet ref="names"/>
+    <input type="freetext" presence="always" category="Basic" description="Local authority or allotment society" name="Operator" key="operator"/>
+  </feature>
+
+  <feature name="Market">
+    <category>food</category>
+    <icon image="/pois/food_market.png"/>
+    <point/>
+    <tag k="amenity" v="marketplace"/>
+    <inputSet ref="names"/>
+    <input type="checkbox" presence="always" category="Basic" description="Does the market sell organic produce?" name="Organic" key="organic" layout="horizontal"/>
+  </feature>
+
 </mapFeatures>
