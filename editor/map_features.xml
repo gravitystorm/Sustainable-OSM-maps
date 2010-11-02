@@ -216,7 +216,7 @@ Quick documentation:
 
   <feature name="Recycling bin">
     <category>waste</category>
-    <icon image="/pois/waste_recycle.png"/>
+    <icon image="/icons/waste_recycle.png"/>
     <help>http://wiki.openstreetmap.org/wiki/Tag:amenity=recycling</help>
     <point/>
     <tag k="amenity" v="recycling"/>
@@ -227,7 +227,7 @@ Quick documentation:
 
   <feature name="Waste/recycling centre">
     <category>waste</category>
-    <icon image="/pois/waste_recycle.png"/>
+    <icon image="/icons/waste_recycle.png"/>
     <help>http://wiki.openstreetmap.org/wiki/Tag:amenity=waste_transfer_station</help>
     <point/>
     <tag k="amenity" v="waste_transfer_station"/>
@@ -242,7 +242,7 @@ Quick documentation:
 
   <feature name="Allotments">
     <category>food</category>
-    <icon image="/pois/food_allotment.png"/>
+    <icon image="/icons/food_allotment.png"/>
     <help>http://wiki.openstreetmap.org/wiki/Tag:landuse=allotments</help>
     <area/>
     <tag k="landuse" v="allotments"/>
@@ -252,7 +252,7 @@ Quick documentation:
 
   <feature name="Market">
     <category>food</category>
-    <icon image="/pois/food_market.png"/>
+    <icon image="/icons/food_market.png"/>
     <help>http://wiki.openstreetmap.org/wiki/Tag:amenity=marketplace</help>
     <point/>
     <tag k="amenity" v="marketplace"/>

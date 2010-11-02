@@ -15,18 +15,18 @@
 
 
 /* Energy generators */
-node[power=generator] { icon-image: /pois/power_default.png; z-index: 20; }
-node[generator:source=solar] { icon-image: /pois/power_solar.png; z-index: 20; }
-node[generator:source=wind] { icon-image: /pois/power_wind.png; z-index: 20; }
-node[generator:source=biomass], node[generator:source=biogas], node[generator:source=biofuel] { icon-image: /pois/power_biomass.png; z-index: 20; }
-node[generator:source=geothermal] { icon-image: /pois/power_geothermal.png; z-index: 20; }
-node[generator:source=hydro] { icon-image: /pois/power_hydro.png; z-index: 20; }
-node[generator:source=sea] { icon-image: /pois/power_sea.png; z-index: 20; }
-node[generator:source=waste] { icon-image: /pois/power_waste.png; z-index: 20; }
+node[power=generator] { icon-image: /icons/power_default.png; z-index: 20; }
+node[generator:source=solar] { icon-image: /icons/power_solar.png; z-index: 20; }
+node[generator:source=wind] { icon-image: /icons/power_wind.png; z-index: 20; }
+node[generator:source=biomass], node[generator:source=biogas], node[generator:source=biofuel] { icon-image: /icons/power_biomass.png; z-index: 20; }
+node[generator:source=geothermal] { icon-image: /icons/power_geothermal.png; z-index: 20; }
+node[generator:source=hydro] { icon-image: /icons/power_hydro.png; z-index: 20; }
+node[generator:source=sea] { icon-image: /icons/power_sea.png; z-index: 20; }
+node[generator:source=waste] { icon-image: /icons/power_waste.png; z-index: 20; }
 
 /* Waste and recycling */
-node[amenity=recycling] { icon-image: /pois/waste_recycle.png; z-index: 20; }
-node[amenity=waste_transfer_station] { icon-image: /pois/waste_recycle.png; z-index: 20; }
+node[amenity=recycling] { icon-image: /icons/waste_recycle.png; z-index: 20; }
+node[amenity=waste_transfer_station] { icon-image: /icons/waste_recycle.png; z-index: 20; }
 way[amenity=waste_transfer_station] { z-index: 10; fill-color: #6517d9; fill-opacity: 0.2; set .area_small_name; }
 
 /* Food */
