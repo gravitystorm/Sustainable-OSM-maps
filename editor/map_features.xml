@@ -230,6 +230,7 @@ Quick documentation:
     <icon image="/icons/waste_recycle.png"/>
     <help>http://wiki.openstreetmap.org/wiki/Tag:amenity=waste_transfer_station</help>
     <point/>
+    <area/>
     <tag k="amenity" v="waste_transfer_station"/>
     <inputSet ref="names"/>
     <inputSet ref="basics"/>
